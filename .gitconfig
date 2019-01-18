@@ -1,4 +1,13 @@
-[aliases]
+[alias]
+	# View the current working tree status using
+	s = status
+
+	# View history of commits
+	l = log
+
+	# Commit all changes
+	ca = !git add -A && git commit -av
+
 	# List all alias
 	aliases = config --get-regexp alias
 [user]

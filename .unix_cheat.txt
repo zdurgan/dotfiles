@@ -9,3 +9,12 @@ pwd				# current directory
 pwd -P 	 	 	  	# current directory, absolute path
 ln -s /filepath /sympath  	# create a symbolic link
 ln -sf /filepath /sympath	# create or update a symbolic link
+
+# Git
+git commit			# makes a commit of changes you added
+	-v, -verbose		# show diff between HEAD commit and what is being commited
+	-a, --all		# stages files that have been modified or deleted, but not new files
+
+# Reload bashrc
+. ~/.bashrc
+
