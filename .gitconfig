@@ -1,0 +1,6 @@
+[aliases]
+	# List all alias
+	aliases = config --get-regexp alias
+[user]
+	name = Zachary Durgan
+	email = ztdurgan@umich.edu

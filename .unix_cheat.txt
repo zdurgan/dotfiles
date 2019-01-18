@@ -1,0 +1,11 @@
+# .unix_cheat.txt
+#
+# zdurgan's UNIX cheat sheet
+#
+# Zachary Durgan <zdurgan@gmail.com>
+
+# Path and files
+pwd				# current directory
+pwd -P 	 	 	  	# current directory, absolute path
+ln -s /filepath /sympath  	# create a symbolic link
+ln -sf /filepath /sympath	# create or update a symbolic link
