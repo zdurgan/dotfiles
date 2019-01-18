@@ -14,6 +14,7 @@
 	name = Zachary Durgan
 	email = ztdurgan@umich.edu
 
+
 [core]
 	# Change git commit message editor
 	editor = 'emacs' 
