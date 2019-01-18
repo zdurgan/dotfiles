@@ -10,6 +10,11 @@
 
 	# List all alias
 	aliases = config --get-regexp alias
+
+	# Pushing to github, eecs.gitlab, origin
+	phub = push github master
+	plab = push gitlab master
+	pori = push origin master
 [user]
 	name = Zachary Durgan
 	email = ztdurgan@umich.edu
