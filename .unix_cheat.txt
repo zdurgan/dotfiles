@@ -10,6 +10,9 @@ pwd -P 	 	 	  	# current directory, absolute path
 ln -s /filepath /sympath  	# create a symbolic link
 ln -sf /filepath /sympath	# create or update a symbolic link
 
+# SSH
+ssh-keygen -t ed25519 [-C ""]	# generate a ed25519 key pair, -C tag for comments
+
 # Git
 git commit			# makes a commit of changes you added
 	-v, -verbose		# show diff between HEAD commit and what is being commited
