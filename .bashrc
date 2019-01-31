@@ -95,6 +95,17 @@ alias l='ls -CF'
 # some emacs aliases
 alias em='emacs'
 
+# some directory aliases
+alias home='cd ~'
+alias .='echo $PWD'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias '?=man'
+
+# some application aliases
+alias gimme='sudo apt-get install'
+
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
