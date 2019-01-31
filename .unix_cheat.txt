@@ -19,8 +19,16 @@ git commit			# makes a commit of changes you added
 	-a, --all		# stages files that have been modified or deleted, but not new files
 git log
 	-pretty=format: "%h %an %ar - %s"	# try making your own custom pretty log
+	--oneline	    	# makes each commit appear on one line with commit message
 git show		    	# will show the actually changes made in the commit
     	<commit-hash>
+git checkout			# with no arguments takes you back to the previous commit
+    	<commit-hash>		# takes you to the commit with the hash
+	<branch-name>		# takes you to the branch
+git reset			# can unstage a file
+	--hard <commit-hash>	# combines reset and checkout
+ 
+
 # Reload bashrc
 . ~/.bashrc
 
