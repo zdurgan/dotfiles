@@ -17,6 +17,9 @@ ssh-keygen -t ed25519 [-C ""]	# generate a ed25519 key pair, -C tag for comments
 git commit			# makes a commit of changes you added
 	-v, -verbose		# show diff between HEAD commit and what is being commited
 	-a, --all		# stages files that have been modified or deleted, but not new files
+git log
+	-pretty=format: "%h %an %ar - %s"	# try making your own custom pretty log
+
 
 # Reload bashrc
 . ~/.bashrc
