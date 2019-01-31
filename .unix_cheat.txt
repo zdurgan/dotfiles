@@ -19,8 +19,8 @@ git commit			# makes a commit of changes you added
 	-a, --all		# stages files that have been modified or deleted, but not new files
 git log
 	-pretty=format: "%h %an %ar - %s"	# try making your own custom pretty log
-
-
+git show		    	# will show the actually changes made in the commit
+    	<commit-hash>
 # Reload bashrc
 . ~/.bashrc
 
