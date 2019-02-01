@@ -96,15 +96,25 @@ alias l='ls -CF'
 alias em='emacs'
 
 # some directory aliases
+alias .f='cd ~/dotfiles'
 alias home='cd ~'
-alias .='echo $PWD'
+alias in='echo $PWD'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
-alias '?=man'
 
 # some application aliases
 alias gimme='sudo apt-get install'
+alias ?='man ' 
+
+# reload .bashrc
+alias reload='source .bashrc'
+
+# create a new directory and enter it
+function mkd() {
+    mkdir -p "$@" && cd "$_";
+    pwd
+}
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
