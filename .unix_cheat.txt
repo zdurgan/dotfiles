@@ -28,7 +28,13 @@ git checkout			# with no arguments takes you back to the previous commit
 git reset			# can unstage a file
 	--hard <commit-hash>	# combines reset and checkout
  
-
 # Reload bashrc
 . ~/.bashrc
 
+# Vim
+:q
+:w
+i
+I
+a
+A
