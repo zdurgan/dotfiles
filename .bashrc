@@ -105,7 +105,9 @@ alias ....='cd ../../..'
 
 # some application aliases
 alias gimme='sudo apt-get install'
-alias ?='man ' 
+alias ?='man '
+alias py2='python2'
+alias py3='python3'
 
 # reload .bashrc
 alias reload='source .bashrc'
