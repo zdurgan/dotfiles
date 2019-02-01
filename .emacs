@@ -19,3 +19,5 @@
 (blink-cursor-mode nil)
 ; set cursor color
 (set-cursor-color "#FF4500")
+; set location of emacs backups
+(setq backup-directory-alist '(("." . "~/.saves")))
