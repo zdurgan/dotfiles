@@ -1,3 +1,4 @@
+1
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
@@ -108,6 +109,9 @@ alias gimme='sudo apt-get install'
 alias ?='man '
 alias py2='python2'
 alias py3='python3'
+
+# dotfile editting aliases
+alias editcheat='em ~/dotfiles/.unix_cheat.txt'
 
 # reload .bashrc
 alias reload='source .bashrc'
