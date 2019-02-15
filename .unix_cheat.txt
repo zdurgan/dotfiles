@@ -31,6 +31,8 @@ git reset			# can unstage a file
 # Reload bashrc
 . ~/.bashrc
 
+# Zip Files
+
 # Vim
 :q
 :w
@@ -38,3 +40,7 @@ i
 I
 a
 A
+
+# Stream Filtering
+sed	 			# streaming editor
+	/re1/re2/		# searches for re1 and replaces with re2
