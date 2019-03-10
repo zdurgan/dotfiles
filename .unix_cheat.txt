@@ -44,3 +44,6 @@ A
 # Stream Filtering
 sed	 			# streaming editor
 	/re1/re2/		# searches for re1 and replaces with re2
+
+# Networking
+netstat-peanut			# ?

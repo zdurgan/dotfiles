@@ -95,7 +95,7 @@ alias l='ls -CF'
 # some emacs aliases
 alias em='emacs'
 
-# some directory aliases
+# some directory aliases 
 alias .f='cd ~/dotfiles'
 alias home='cd ~'
 alias in='echo $PWD'
@@ -111,9 +111,11 @@ alias py3='python3'
 
 # dotfile editting aliases
 alias editcheat='em ~/dotfiles/.unix_cheat.txt'
+alias editgit='em ~/dotfiles/.gitconfig'
+alias editbrc='em ~/dotfiles/.bashrc'
 
 # reload .bashrc
-alias reload='source .bashrc'
+alias reload='source .bashrc; source .profile'
 
 # create a new directory and enter it
 function mkd() {

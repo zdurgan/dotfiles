@@ -4,6 +4,7 @@
 
 	# View history of commits
 	l = log
+	lp = log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"
 
 	# Initialize a repository
 	i = init
@@ -18,7 +19,11 @@
 	ca = !git add -A && git commit -av
 
 	# Hard reset repository
+	# To last commit
 	hr = reset --hard
+	# To previous commit
+	hr1 = reset --hard HEAD~1
+	# Look into git stash && git reset --keep
 
 	# List all alias
 	aliases = config --get-regexp alias
@@ -31,11 +36,11 @@
 	# EECS 388 Group Work pushes
 	pzbr = push origin ztdurgan-branch
 	pgzbr = push github ztdurgan-branch
+
 [user]
 	name = Zachary Durgan
 	email = ztdurgan@umich.edu
-
-
+	
 [core]
 	# Change git commit message editor
 	editor = 'emacs' 
