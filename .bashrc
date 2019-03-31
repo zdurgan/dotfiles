@@ -117,6 +117,9 @@ alias editbrc='em ~/dotfiles/.bashrc'
 # reload .bashrc
 alias reload='source .bashrc; source .profile'
 
+# uncompressing aliases
+alias untar='tar -xzvf'
+
 # create a new directory and enter it
 function mkd() {
     mkdir -p "$@" && cd "$_";
