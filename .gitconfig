@@ -10,6 +10,7 @@
 	i = init
 
 	# Adding or removing a remote
+	r = remote
 	rao = remote add origin
 	rah = remote add github
 	ral = remote add gitlab
