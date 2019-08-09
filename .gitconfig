@@ -15,6 +15,7 @@
 	rah = remote add github
 	ral = remote add gitlab
 	rr = remote rm
+	rv = remote -v
 	
 	# Commit all changes
 	ca = !git add -A && git commit -av
