@@ -57,9 +57,9 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\h~*\[\033[00m\]\[\033[01;34m\] \w\[\033[00m\] '
 else
-    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\u~* \w\$ '
 fi
 unset color_prompt force_color_prompt
 
@@ -108,6 +108,7 @@ alias gimme='sudo apt-get install'
 alias ?='man '
 alias py2='python2'
 alias py3='python3'
+alias explorer='explorer.exe .'
 
 # dotfile editting aliases
 alias editcheat='em ~/dotfiles/.unix_cheat.txt'
@@ -115,7 +116,7 @@ alias editgit='em ~/dotfiles/.gitconfig'
 alias editbrc='em ~/dotfiles/.bashrc'
 
 # reload .bashrc
-alias reload='source .bashrc; source .profile'
+alias reload='exec bash\n source ~/.profile'
 
 # uncompressing aliases
 alias untar='tar -xzvf'
