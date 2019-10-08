@@ -47,4 +47,5 @@ sed	 			# streaming editor
 
 # Networking
 netstat-peanut			# ?
-
+traceroute			# traces route of a domain name or ip address
+	<domain-name/ip-address>
