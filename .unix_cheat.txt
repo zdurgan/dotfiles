@@ -49,3 +49,9 @@ sed	 			# streaming editor
 netstat-peanut			# ?
 traceroute			# traces route of a domain name or ip address
 	<domain-name/ip-address>
+
+# Processes and Threads
+ps -ax				# see all the running processes running on a machine
+pgrep -af 			# search for processes with search terms in name
+	<search term/s>
+ps -axM				# see all running threads and processes on a machine
