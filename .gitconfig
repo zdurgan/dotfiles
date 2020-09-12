@@ -35,10 +35,6 @@
 	plab = push gitlab master
 	pori = push origin master
 
-	# EECS 388 Group Work pushes
-	pzbr = push origin ztdurgan-branch
-	pgzbr = push github ztdurgan-branch
-
 [user]
 	name = Zachary Durgan
 	email = ztdurgan@umich.edu
