@@ -151,7 +151,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
+
+export CUSTOM_SCRIPTS=~/dotfiles/shell-scripts
 export ORACLE_HOME=/opt/oracle/instantclient_18_1
 export LD_LIBRARY_PATH="$ORACLE_HOME"
-export PATH="$ORACLE_HOME:$PATH"
+export PATH="$ORACLE_HOME:$CUSTOM_SCRIPTS:$PATH"
 export DISPLAY=:0
