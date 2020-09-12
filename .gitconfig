@@ -16,8 +16,8 @@
 	ral = remote add gitlab
 	rr = remote rm
 	rv = remote -v
-	rssh = "!f() { echo "remote set-url origin git@github.com:$1"; }; f"
-	rhttp = "!f() { echo "remote set-url origin https://github.com/$1"; }; f"
+	rssh = "!f() { git remote set-url origin git@github.com:$1; }; f"
+	rhttp = "!f() { git remote set-url origin https://github.com/$1; }; f"
 	
 	# Commit all changes
 	ca = !git add -A && git commit -av
