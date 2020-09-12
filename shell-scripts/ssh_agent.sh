@@ -2,4 +2,4 @@
 
 eval "$(ssh-agent -s)"
 
-ssh-add ~/dotfiles/.ssh/*_rsa
+ssh-add ~/dotfiles/.ssh/github_rsa
